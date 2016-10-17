@@ -13,6 +13,8 @@
 		5D89CC681DB5601E001A6407 /* BookCollector.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5D89CC661DB5601E001A6407 /* BookCollector.xcdatamodeld */; };
 		5D89CC6A1DB5601E001A6407 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D89CC691DB5601E001A6407 /* Assets.xcassets */; };
 		5D89CC6D1DB5601E001A6407 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D89CC6B1DB5601E001A6407 /* LaunchScreen.storyboard */; };
+		5D89CC771DB5653B001A6407 /* ego.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5D89CC761DB5653B001A6407 /* ego.jpg */; };
+		5D89CC791DB567F2001A6407 /* BookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D89CC781DB567F2001A6407 /* BookViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		5D89CC691DB5601E001A6407 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D89CC6C1DB5601E001A6407 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D89CC6E1DB5601E001A6407 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D89CC761DB5653B001A6407 /* ego.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ego.jpg; sourceTree = "<group>"; };
+		5D89CC781DB567F2001A6407 /* BookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +60,11 @@
 		5D89CC5E1DB5601E001A6407 /* BookCollector */ = {
 			isa = PBXGroup;
 			children = (
+				5D89CC761DB5653B001A6407 /* ego.jpg */,
 				5D89CC5F1DB5601E001A6407 /* AppDelegate.swift */,
 				5D89CC611DB5601E001A6407 /* ViewController.swift */,
 				5D89CC631DB5601E001A6407 /* Main.storyboard */,
+				5D89CC781DB567F2001A6407 /* BookViewController.swift */,
 				5D89CC691DB5601E001A6407 /* Assets.xcassets */,
 				5D89CC6B1DB5601E001A6407 /* LaunchScreen.storyboard */,
 				5D89CC6E1DB5601E001A6407 /* Info.plist */,
@@ -127,6 +133,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D89CC6D1DB5601E001A6407 /* LaunchScreen.storyboard in Resources */,
+				5D89CC771DB5653B001A6407 /* ego.jpg in Resources */,
 				5D89CC6A1DB5601E001A6407 /* Assets.xcassets in Resources */,
 				5D89CC651DB5601E001A6407 /* Main.storyboard in Resources */,
 			);
@@ -140,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D89CC621DB5601E001A6407 /* ViewController.swift in Sources */,
+				5D89CC791DB567F2001A6407 /* BookViewController.swift in Sources */,
 				5D89CC601DB5601E001A6407 /* AppDelegate.swift in Sources */,
 				5D89CC681DB5601E001A6407 /* BookCollector.xcdatamodeld in Sources */,
 			);
